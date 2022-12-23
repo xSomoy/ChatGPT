@@ -72,3 +72,34 @@ I hope this helps! Let me know if you have any questions or if you would like to
 Certainly! Here is the equivalent PHP code for displaying a 24-hour clock:
 ```
 `Code` [Test-1.3](https://github.com/xSomoy/ChatGPT/blob/master/t1.3-24hourClock.php)
+
+```
+This code uses the time() and localtime() functions to get the current time and store it in a tm array. It then extracts the hour, minute, and second from the time array and prints them to the console in HH:MM:SS format using the sprintf() function. The displayClock() function is called again using usleep() to cause a delay of 1 second, causing the clock to update continuously.
+
+I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
+```
+> what about assembly? 
+```
+It is certainly possible to write a program to display a 24-hour clock in assembly language, although the specific details will depend on the specific assembly language and platform you are targeting.
+
+Here is an example of how you might write a program to display a 24-hour clock in x86 assembly language using the NASM assembler:
+```
+`Code` [Test-1.3](https://github.com/xSomoy/ChatGPT/blob/master/t1.4-24hourClock.asm)
+
+```
+This code declares a global variable time to store the current time, and a function display_clock to extract the hour, minute, and second from the time variable, format them as a string, and print them to the console using the printf() function. The display_clock function is called in an infinite loop, and the sleep() function is used to cause a delay of 1 second before calling the function again.
+
+I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
+```
+> in java
+```
+Certainly! Here is the equivalent Java code for displaying a 24-hour clock:
+```
+`Code` [Test-1.5](https://github.com/xSomoy/ChatGPT/blob/master/t1.4-24hourClock.java)
+
+```
+This code uses the Calendar class from the java.util package to get the current time and extracts the hour, minute, and second using the get() method with the appropriate constants. It then formats the time as a string in HH:MM:SS format and prints it to the console using the System.out.printf() method. The while loop runs indefinitely, and the Thread.sleep() method is used to cause a delay of 1 second before updating the time again.
+
+I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
+
+```

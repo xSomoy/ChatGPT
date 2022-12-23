@@ -1,10 +1,11 @@
-# ChatGPT
-## My chatGPT adventures.
+# My ChatGPT Adventures.
 ### First Encounter:
 
-> > hi 
+>  hi 
 
-```ChatGPT: Hello! How can I help you today?```
+```
+ChatGPT: Hello! How can I help you today?
+```
 
 > I want to learn programming 
 
@@ -23,4 +24,17 @@ Practice writing and running code. The best way to learn programming is to write
 
 There are many resources available online to help you learn programming, including online tutorials, video courses, and textbooks. Some popular websites for learning programming include Codecademy, Khan Academy, and Coursera.
 
-I hope this helps! Let me know if you have any other questions```
+I hope this helps! Let me know if you have any other questions
+```
+> write a python program that sorts files using file type as a unique parameter
+
+```
+Sure! Here is a simple Python program that sorts files in a given directory based on their file type:
+```
+`Code:` [Test-0](https://github.com/xSomoy/ChatGPT/blob/master/t0-fileSort.py)
+```
+This code will create a dictionary with file types as keys and lists of file names as values. It will then iterate through the files in the given directory, split the file name and file extension, and add the file name to the appropriate list in the dictionary based on its file type. Finally, it will print the sorted file names for each file type.
+
+I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
+```
+

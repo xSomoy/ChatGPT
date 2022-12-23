@@ -1,5 +1,6 @@
 # input : write a python program that sorts files using file type as a unique parameter
 
+
 import os
 
 def sort_files_by_type(directory):

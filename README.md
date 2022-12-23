@@ -51,9 +51,24 @@ I hope this helps! Let me know if you have any questions or if you would like to
 ```
 Certainly! Here is the equivalent JavaScript code for displaying a 24-hour clock:
 ```
-`Code` [Test-1.1](https://github.com/xSomoy/ChatGPT/blob/master/t1-24hourClock.js)
+`Code` [Test-1.1](https://github.com/xSomoy/ChatGPT/blob/master/t1.1-24hourClock.js)
 ```
 This code uses the Date object to get the current time and then extracts the hour, minute, and second using the getHours(), getMinutes(), and getSeconds() methods. It then formats the time as a string in HH:MM:SS format and prints it to the console using the console.log() function. The displayClock() function is called again using the setTimeout() function after a delay of 1 second, causing the clock to update continuously.
 
 I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
 ```
+> same thing in c
+```
+Sure! Here is the equivalent C code for displaying a 24-hour clock:
+```
+`Code` [Test-1.2](https://github.com/xSomoy/ChatGPT/blob/master/t1.2-24hourClock.c)
+```
+This code uses the time() and localtime() functions from the time.h header to get the current time and store it in a struct tm object. It then extracts the hour, minute, and second from the time structure and prints them to the console in HH:MM:SS format using the printf() function. The while loop runs indefinitely, and the sleep() function from the unistd.h header causes the program to pause for 1 second before updating the time again.
+
+I hope this helps! Let me know if you have any questions or if you would like to see any other examples.
+```
+> in php too
+```
+Certainly! Here is the equivalent PHP code for displaying a 24-hour clock:
+```
+`Code` [Test-1.3](https://github.com/xSomoy/ChatGPT/blob/master/t1.3-24hourClock.php)

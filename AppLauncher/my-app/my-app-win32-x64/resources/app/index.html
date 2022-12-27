@@ -1,0 +1,13 @@
+<html>
+<body>
+  <button id="launch-button">Launch Program</button>
+  <script>
+    const { shell } = require('electron')
+    const launchButton = document.getElementById('launch-button')
+
+    launchButton.addEventListener('click', () => {
+      shell.openItem('C:\\path\\to\\program.exe')
+    })
+    </script>
+  </body >
+</html >

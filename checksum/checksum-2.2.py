@@ -45,11 +45,11 @@ sha256_label = tk.ttk.Label(text="SHA256:")
 exit_button = tk.ttk.Button(text="Exit", command=exit_program)
 
 # Add the widgets to the window and align them to the left
-select_button.pack(side='left')
-md5_label.pack(side='left')
-sha1_label.pack(side='left')
-sha256_label.pack(side='left')
-exit_button.pack(side='left')
+select_button.pack()
+md5_label.pack()
+sha1_label.pack()
+sha256_label.pack()
+exit_button.pack()
 
 # Run the main loop
 window.mainloop()

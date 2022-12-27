@@ -1,7 +1,7 @@
 import cx_Freeze
 import os
 
-print("This Program uses 'cx_Freeze' libary\nBut No additional Dependence Option in not included")
+print("\nThis Program uses 'cx_Freeze' libary\nBut No additional Dependence Option in not included\n")
 
 foo = input('Py Script Name: ')
 var = input('Exe File Name: ')
@@ -15,4 +15,4 @@ cx_Freeze.setup(
 )
 # Clearing the Screen
 os.system('cls')
-print('You EXE file is here >> \\build\exe.win-amd64-3.10\\' + var + '.exe' )
+print('You EXE file is here >> \\build\exe.win-amd64-3.10\\' + var + '.exe' + '\n' )

@@ -8,7 +8,7 @@ window = ttkthemes.ThemedTk()
 window.get_themes()  # Get the list of available themes
 window.set_theme("plastik")  # Set the theme
 window.title("Checksum Calculator")
-window.configure(bg='black')  # Set the background color to black
+# window.configure(bg='black')  # Set the background color to black
 window.geometry("600x300")  # Set the window size to 600x300
 
 # Create a function to compute the checksums

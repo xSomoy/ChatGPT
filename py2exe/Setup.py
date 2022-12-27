@@ -1,3 +1,7 @@
+# John Deadman @2022 
+# Twitter: xSomoy
+# Github : xSomoy
+
 import cx_Freeze
 import os
 
@@ -16,3 +20,4 @@ cx_Freeze.setup(
 # Clearing the Screen
 os.system('cls')
 print('You EXE file is here >> \\build\exe.win-amd64-3.10\\' + var + '.exe' + '\n' )
+

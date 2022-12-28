@@ -1,13 +1,27 @@
 <html>
-<body>
-  <button id="launch-button">Launch Program</button>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: cadetblue;">
+
+  <button id="codeBlocks">Code:Blocks</button>
+  <button id="virtualBox">Virtual Box</button>
   <script>
     const { shell } = require('electron')
-    const launchButton = document.getElementById('launch-button')
+    const launchButton = document.getElementById('codeBlocks')
 
     launchButton.addEventListener('click', () => {
-      shell.openItem('C:\\path\\to\\program.exe')
+      shell.openItem('C:\\Program Files\\CodeBlocks\\codeblocks.exe')
     })
-    </script>
-  </body >
-</html >
+
+    const launchButton2 = document.getElementById('virtualBox')
+
+    launchButton2.addEventListener('click', () => {
+      shell.openItem('C:\\Program Files\\Oracle\\VirtualBox\\VirtualBox.exe')
+    })
+  </script>
+</body>
+
+</html>
